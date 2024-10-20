@@ -1,0 +1,94 @@
+
+<html lang="vi"
+    __fvdsurfcanyoninserted="1"
+    class="
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+    "
+>
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" type="image/png" href="./birthdayCake.png"/>
+        <title>Tặng pé</title>
+        <link rel="stylesheet" href="./style.css">
+        <script>
+            window.open = function () {};
+            window.print = function () {};
+            // Support hover state for mobile.
+            if (false) {
+                window.ontouchstart = function () {};
+            }
+        </script>
+        <script
+            type="text/javascript"
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
+        ></script>
+        <meta content="clickberry-extension-here" />
+    </head>
+
+    <body>
+        <link
+            href="https://fonts.googleapis.com/css?family=Wendy+One"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <div class="pyro">
+            <div class="before">
+                
+            </div>
+            <div class="after">
+
+            </div>
+            <div class="container">
+                <div class="balloon">
+                     <div><span>P </span></div>
+                    <div><span>h </span></div>
+                    <div><span>ụ </span></div>
+                    <div><span>N </span></div>
+                    <div><span>Ư </span></div>
+                    <div><span>V </span></div>
+                    <div><span>i </span></div>
+                    <div><span>ệ </span></div>
+                    <div><span>t </span></div>
+                    <div><span>N </span></div>
+                    <div><span>A </span></div>
+                    <div><span>M </span></div>
+                    <div><span>👩‍🦰 </span></div>
+                </div>
+                <div class="avatar">
+                    <img src="./MyAvatar.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+                    <h1 onclick="showMessage()" class="avatar__title">Anh dấu tên</h1>
+                </div>
+                 <audio id="player" autoplay loop>
+                    <source src="./music.mp3" type="audio/mp3">
+                </audio> 
+            </div>
+        </div>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage("resize", "*");
+            }
+            function showMessage() {
+                swal({
+                    title: "Lời nhắn", // Tiêu đề của popup
+                    text: "  Nhân ngày Phụ nữ Việt Nam 20-10,. Em không chỉ là một người phụ nữ tuyệt vời mà còn là người làm cho mỗi ngày trở nên đặc biệt hơn. Anh chúc em luôn mạnh khỏe, hạnh phúc và đạt được mọi điều em mong muốn.Chúc em một ngày 20-10 thật rực rỡ!  ", 
+                    button: {
+                        text: "❤️️",
+                    },
+                });
+            }
+        </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script>
+        var audio = document.getElementById('time');
+        audio.play().catch(function(error) {
+            console.log("Autoplay was prevented: " + error);
+        });
+    </script>
+    </body>
+</html>
